@@ -1,0 +1,30 @@
+
+  .initialcontent{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
+    opacity: 50%;
+    position: fixed;
+    width: 100%;
+    min-height: 50px; 
+    height: 100%;    
+  }
+
+  .page_content{
+    position: relative;
+    padding: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+  }
+  .logo_img {
+    margin: 4px 11px;
+    top:0px;
+    right: 0px;
+    position: absolute;
+    width:80px;
+    height:60px;
+  }
+
+  h1{
+    font-weight: bold;
+    color: blueviolet;
+  }
