@@ -1,19 +1,21 @@
 
   .initialcontent{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
-    opacity: 50%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg) ;
+    background-color: rgb(159, 205, 206);
+    opacity: 0.9;
     position: fixed;
     width: 100%;
     min-height: 50px; 
-    height: 100%;    
-  }
+    height: 100%;
 
+  }
+  
   .page_content{
     position: relative;
     padding: 27px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
   }
   .logo_img {
     margin: 4px 11px;
@@ -22,9 +24,38 @@
     position: absolute;
     width:80px;
     height:60px;
+    border-radius: 8px;
   }
 
   h1{
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(7, 2, 71);
+  }
+
+  table  {
+    border: 1px solid ;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 4px 4px 4px 4px; 
+  }
+  tr{
+    border: 1px solid;
+  }
+  th  {
+    border: 1px solid;
+    padding: 4px 40px;
+    background-color: #0052ff;
+  }
+  td{
+    border: 1px solid;
+    padding: 4px 51px;
+  }
+  .highlighter{
+    color: rgb(33, 3, 200);
+    font-weight: bold;
+    font-size: medium;
+  }
+  .amount{
+    color: rgb(5, 53, 29);
+    font-weight: bold;
   }
