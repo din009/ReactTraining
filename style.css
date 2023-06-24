@@ -1,12 +1,9 @@
 
   .initialcontent{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1920px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg) ;
-    background-color: rgb(159, 205, 206);
-    opacity: 0.9;
-    position: fixed;
+    background-color: #f5f3de;
+    position: absolute;
     width: 100%;
-    min-height: 50px; 
-    height: 100%;
+    height: 130%;
 
   }
   
@@ -16,15 +13,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-size: 15px;
-  }
-  .logo_img {
-    margin: 4px 11px;
-    top:0px;
-    right: 0px;
-    position: absolute;
-    width:80px;
-    height:60px;
-    border-radius: 8px;
   }
 
   h1{
@@ -58,4 +46,22 @@
   .amount{
     color: rgb(5, 53, 29);
     font-weight: bold;
+  }
+
+  #heading{
+    text-align:center ;
+  }
+
+  input{
+    margin-left: 4px;
+    padding: 2px;
+  }
+  .formContent{
+    margin-left: 437px;
+  }
+  .game{
+    margin-left: 121px;
+  }
+  #address{
+    height: 20%;
   }
