@@ -1,0 +1,32 @@
+.mybutton{
+    padding: 2px;
+    margin: 2px;
+    width: 70px;
+    height: 50px;
+}
+
+.table{
+    border: solid 2px;
+}
+th{
+    border: solid 2px;
+    background-color: gray;
+}
+tr{
+   
+    border-radius: 2px 2px 2px 2px ;
+}
+td{
+    border: solid 2px;
+}
+
+.mycontent {
+
+}
+.mytable{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h2{
+    margin-right:55rem ;
+}
